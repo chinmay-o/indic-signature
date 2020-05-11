@@ -41,14 +41,18 @@ body{
   padding: 1.5rem;
 }
 
-.card{
+.products{
 
-  display: block;
-  margin: auto;
   background-color: black;
-  border: 0;
-  width: 18rem;
-  height: 20rem;
+  height: 180px;
+  border: 16px solid #e6a400;
+  border-radius: 18px;
+}
+
+.icons{
+
+  text-align: center;
+  display: block !important;
   color: #ffffea;
   margin-bottom: 1rem;
 }
