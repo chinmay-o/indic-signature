@@ -16,7 +16,7 @@ body{
 
 .navBar{
 
-  background-color: inherit!important;
+  background-color: inherit !important;
   padding: 10rem !important;
   padding-top: 0!important;
   padding-bottom: 0!important;
@@ -57,9 +57,9 @@ body{
   background-color: #91b029;
 }
 
-.products:checked{
+.products:focus{
 
-  background-color: #e6a400;
+  background: #91b029;
 }
 
 .icons{
