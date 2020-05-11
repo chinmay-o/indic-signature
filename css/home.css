@@ -32,7 +32,7 @@ body{
 
 .navContentList{
 
-  margin-right: -20px !important;
+  margin-right: -22px !important;
 }
 
 .navContentList li{
@@ -43,18 +43,43 @@ body{
 
 .products{
 
-  background-color: black;
-  height: 180px;
-  border: 16px solid #e6a400;
-  border-radius: 18px;
+  background-color: #e6a400;
+  height: 140px !important;
+  width: 260px !important;
+  border: 0!important;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.products:hover{
+
+  background-color: #91b029;
+}
+
+.products:checked{
+
+  background-color: #e6a400;
 }
 
 .icons{
 
-  text-align: center;
+  text-align: left;
+  font-size: 4em;
   display: block !important;
   color: #ffffea;
-  margin-bottom: 1rem;
+  margin: auto;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.iconText{
+
+  text-align: right;
+  white-space: pre-wrap;
+  margin-right: 16px;
+  margin-top: 18px;
+  vertical-align: middle;
 }
 
 .slog{
